@@ -1,0 +1,19 @@
+{
+  "name": "cleanpro/saas-app",
+  "description": "Application SaaS pour services d'entretien",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "dompdf/dompdf": "^2.0",
+    "vlucas/phpdotenv": "^5.5",
+    "firebase/php-jwt": "^6.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "CleanPro\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
